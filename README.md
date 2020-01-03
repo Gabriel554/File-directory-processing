@@ -2,13 +2,22 @@
 The program requested for this project must have a text menu like this: 
  
 0 – Exit 
+
 1 – Select directory 
+
 2 – List directory content (first level) 
+
 3 – List directory content (all levels) 
+
 4 – Delete file 
+
 5 – Display file (hexadecimal view) 
+
 6 – Encrypt file (XOR with password) 
-7 – Decrypt file (XOR with password) Select option:  
+
+7 – Decrypt file (XOR with password) 
+
+Select option:  
  
 The menu is displayed and the user must select an option (a number between 0 and 7). The action corresponding to the selection is performed, then the menu is displayed again and the user can choose another option. This cycle is repeated until the user selects 0, which exits the loop and ends the program. 
  
@@ -37,4 +46,5 @@ Note2: If no directory was selected an error message must be displayed. If the d
 7 – Decrypt file (XOR with password) This option prompts the user for a password (max 256 bytes long, may contain letters, digits, other characters) and then prompts the user for a filename and decrypts the content of the selected file using that password. The decryption method is very simple: just XOR the password with the file content byte after byte; the password being shorter than the file content, you must repeat the password as needed. Example: passwordpasswordpasswordpasswordpasswordpasswordpass chiphertext is here … this is the file content that we had initially 
  
 Note1: the user must be prompted for the filename of the decrypted file as well, otherwise we would need to overwrite the initial file. 
+
 Note3: If no directory was selected an error message must be displayed. If the directory does not contain either of the files specified by the user, an error message must be displayed. The filenames do not include any path
