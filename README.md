@@ -47,4 +47,4 @@ Note2: If no directory was selected an error message must be displayed. If the d
  
 Note1: the user must be prompted for the filename of the decrypted file as well, otherwise we would need to overwrite the initial file. 
 
-Note3: If no directory was selected an error message must be displayed. If the directory does not contain either of the files specified by the user, an error message must be displayed. The filenames do not include any path
+Note2: If no directory was selected an error message must be displayed. If the directory does not contain either of the files specified by the user, an error message must be displayed. The filenames do not include any path
