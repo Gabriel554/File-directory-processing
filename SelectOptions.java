@@ -19,10 +19,10 @@ import javax.swing.JOptionPane;
  * Date: Nov 19, 2019
  * Author: Gabriel Gallegos
  * Purpose: This file contains all the operations and work for it's main file. This program
- * prompts the user with 8 options from which to choose from, that will then execute 8 different
+ * prompts the user with 8 options to choose from, that will then execute 8 different
  * operations, depending on the choice selected. The main functions of the program are: listing first
  * and all levels of a directory's content, deleting a file, displaying a file in hexadecimal view, and
- * encrypting and decrypting a file, using XOR with password.
+ * encrypting and decrypting a file, using XOR encryption.
  */
 
 public class SelectOptions {
